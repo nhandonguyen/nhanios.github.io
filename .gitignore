@@ -1,32 +1,40 @@
-# Prerequisites
-*.d
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+header {
+    background-color: lightblue;
+    padding: 20px;
+}
 
-# Precompiled Headers
-*.gch
-*.pch
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+nav li {
+    margin-right: 20px;
+}
 
-# Fortran module files
-*.mod
-*.smod
+nav a {
+    color: white;
+    text-decoration: none;
+}
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+main {
+    padding: 20px;
+}
 
-# Executables
-*.exe
-*.out
-*.app
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+}
